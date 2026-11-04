@@ -1,0 +1,15 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:17px/1.65 "Golos Text","Segoe UI",Arial,sans-serif;background:#f3f5f7;color:#1d2a35}
+h1,h2,h3{font-family:Alegreya,Georgia,serif;color:#2f4a5e;line-height:1.2}a{color:#2f4a5e}
+header{background:#2f4a5e;position:sticky;top:0;z-index:5}nav{max-width:1000px;margin:auto;display:flex;flex-wrap:wrap;align-items:center;gap:4px;padding:8px 14px}nav .logo{font-family:Alegreya,Georgia,serif;font-size:1.4rem;color:#e8b64a;font-weight:700;margin-right:auto;text-decoration:none}nav a{color:#fff;text-decoration:none;padding:6px 12px;border-radius:6px}nav a:hover,nav a.on{background:#c58f1d;color:#1d2a35}
+.hero{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:340px;height:340px;overflow:hidden;position:relative}.hero img{width:100%;height:340px;object-fit:cover;display:block}.hero .t{position:absolute;inset:0;background:linear-gradient(rgba(20,28,35,.35),rgba(20,28,35,.7));color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:16px}.hero h1{color:#fff;font-size:3.4rem;margin:0}.hero p{margin:.3rem 0 0;font-size:1.2rem}
+main{max-width:900px;margin:auto;padding:28px 16px 60px}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.box{background:#fff;border:1px solid #d3dbe2;border-radius:10px;padding:14px}a.box{text-decoration:none;color:inherit;border-top:4px solid #c58f1d}a.box:hover{box-shadow:0 4px 14px rgba(0,0,0,.15)}
+figure{margin:0}figure img{width:100%;border-radius:8px;display:block}figcaption{font-size:.88rem;color:#5b6b78;margin-top:4px}
+.lvl{background:#c58f1d;color:#1d2a35;border-radius:4px;padding:1px 7px;font-size:.8rem;margin-right:6px}
+table{border-collapse:collapse;width:100%;background:#fff}th,td{border:1px solid #d3dbe2;padding:8px;text-align:left}th{background:#e6ebef}.w{overflow-x:auto}
+button{font:inherit;padding:6px 14px;margin:3px;border:1px solid #2f4a5e;background:#fff;border-radius:6px;cursor:pointer}button.pick{background:#2f4a5e;color:#fff}
+.q{background:#fff;border:1px solid #d3dbe2;border-radius:8px;padding:12px;margin:12px 0}.ok{color:#2d7a4f}.bad{color:#b23a3a}
+.dl p{margin:.4rem 0;padding:8px 12px;border-radius:8px;background:#fff;border-left:4px solid #2f4a5e;max-width:85%}.dl p.g{margin-left:auto;border-left-color:#c58f1d}
+textarea{width:100%;min-height:130px;font:inherit;padding:8px}
+.sign{border:4px solid #c58f1d;border-radius:10px;padding:24px 10px;text-align:center;font:700 1.7rem Alegreya,'Noto Sans Lao',Georgia,serif;background:#2f4a5e;color:#fff}.sign.l{background:#fff;color:#2f4a5e}.sign small{display:block;font:400 .9rem 'Golos Text',Arial,sans-serif;opacity:.85;margin-top:4px}.lao{font-family:'Noto Sans Lao','Leelawadee UI',sans-serif}.mini{font-size:.92rem;color:#5b6b78}
+@media(max-width:600px){.hero{height:300px;grid-template-rows:300px}.hero img{height:300px}.hero h1{font-size:2.4rem}}
